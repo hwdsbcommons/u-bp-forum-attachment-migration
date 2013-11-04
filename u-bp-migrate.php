@@ -198,7 +198,7 @@ class u_BP_Migrate {
 	 * Shows u BP Forum Attachments if they exist underneath each bbPress post.
 	 */
 	public function show_attachment_block() {
-		$attachments = get_post_meta( get_the_ID(), $this->meta_key, true );
+		$attachments = get_post_meta( bbp_get_reply_id(), $this->meta_key, true );
 
 		if ( empty( $attachments ) ) {
 			return;
