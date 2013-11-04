@@ -209,7 +209,7 @@ class u_BP_Migrate {
 		/* following is mostly a copy-paste of the create_filebox() method from u BP */
 
 		$ret = '<div class="clear"></div>';
-		$ret .= '<table class="'.$id.'-attachments '.$id.'-filelist">';
+		$ret .= '<table class="'.$this->id.'-attachments '.$this->id.'-filelist">';
 		$ret .= '<strong>Legacy Attachments</strong>';
 
 		$i = 0;
