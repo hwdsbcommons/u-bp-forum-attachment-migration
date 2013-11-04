@@ -209,8 +209,8 @@ class u_BP_Migrate {
 		/* following is mostly a copy-paste of the create_filebox() method from u BP */
 
 		$ret = '<div class="clear"></div>';
-		$ret .= '<table class="'.$this->id.'-attachments '.$this->id.'-filelist">';
 		$ret .= '<strong>Legacy Attachments</strong>';
+		$ret .= '<table class="'.$this->id.'-attachments '.$this->id.'-filelist">';
 
 		$i = 0;
 		foreach($attachments as $attachment){
