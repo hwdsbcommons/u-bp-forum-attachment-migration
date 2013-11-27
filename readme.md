@@ -13,7 +13,7 @@ How to use?
 * Login to the WP admin dashboard and navigate to the "Tools > Forums" page.
 * Next, click on the "Repair u BuddyPress Forum Attachment postdata" checkbox and hit the "Repair Items" button.  This will convert the data over.
 * Once that is done, navigate to a group forum post that has a u BP Forum Attachment.  It should now be displayed.
-
+* Note that the plugin must be left activated after migration
 
 Version
 -
